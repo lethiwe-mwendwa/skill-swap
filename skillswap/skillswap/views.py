@@ -6,6 +6,6 @@ def homepage(request):
 def about(request):
     return render(request,"about.html")
 
-def upcoming_projects(request):
-    return render(request,"upcoming_projects.html")
+def offline_learning(request):
+    return render(request,"offline_learning.html")
 

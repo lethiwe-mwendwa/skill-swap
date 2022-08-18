@@ -9,7 +9,7 @@ urlpatterns = [
     path('account/',include('account.urls'), name = 'account'),
     path('learningSpace/',include('learningSpace.urls'), name = 'learningSpace'),
     path('about/', views.about, name = 'about'),
-    path('projects/', views.upcoming_projects, name = 'projects'),
+    path('ussd/', views.offline_learning, name = 'projects'),
     path('', views.homepage, name = 'homepage'),
 ]
 
